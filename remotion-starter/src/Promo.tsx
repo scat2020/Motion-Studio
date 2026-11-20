@@ -571,7 +571,7 @@ const OutroScene = () => {
           opacity: fade,
         }}
       >
-        D:\AI Project\Video\motion-studio
+        github.com/scat2020/Motion-Studio
       </div>
 
       <div style={{ display: 'flex', gap: 40, marginTop: 44, opacity: fade }}>
