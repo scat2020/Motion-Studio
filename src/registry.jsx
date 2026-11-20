@@ -271,7 +271,6 @@ pathEl.setAttribute('d', mix(t));`,
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(42, w / h, 0.1, 100);
-const camera = new THREE.PerspectiveCamera(42, w / h, 0.1, 100);
 camera.position.set(0, 0.4, 4.2);
 
 const geo = new THREE.IcosahedronGeometry(1.05, 1);
