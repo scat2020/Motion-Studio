@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.vite/
+*.log
+.DS_Store
+
+# local single-file build & chat previews
+motion-studio.html
+preview.png
+
+# remotion build outputs
+remotion-starter/node_modules/
+remotion-starter/out/
+remotion-starter/.remotion/
+.bundle-check/

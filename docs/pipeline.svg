@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Pipeline: desktop tools to frame sequences to Remotion">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1118" />
+      <stop offset="100%" stop-color="#070a0e" />
+    </linearGradient>
+    <linearGradient id="fade1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#57a9ff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#57a9ff" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="fade2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b6cff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#8b6cff" stop-opacity="0.95" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#pbg)" />
+  <rect x="0.5" y="0.5" width="1199" height="299" fill="none" stroke="#1b2836" stroke-width="1" />
+
+  <rect x="60" y="38" width="340" height="112" rx="12" fill="#111923" stroke="#24354a" />
+  <text x="84" y="74" font-family="ui-sans-serif, 'Segoe UI', Arial" font-size="16" font-weight="700" fill="#e9f0f8">1  DESKTOP TOOLS</text>
+  <text x="84" y="102" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#8c99a8">manim · blender · opentoonz</text>
+  <text x="84" y="122" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#8c99a8">synfig · inochi2d · godot</text>
+
+  <rect x="430" y="38" width="340" height="112" rx="12" fill="#111923" stroke="#24354a" />
+  <text x="454" y="74" font-family="ui-sans-serif, 'Segoe UI', Arial" font-size="16" font-weight="700" fill="#e9f0f8">2  FRAME SEQUENCE</text>
+  <text x="454" y="102" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#8c99a8">assets/&lt;tool&gt;/frame_0001.png</text>
+  <text x="454" y="122" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#8c99a8">transparent · zero-padded</text>
+
+  <rect x="800" y="38" width="340" height="112" rx="12" fill="#111923" stroke="#24354a" />
+  <text x="824" y="74" font-family="ui-sans-serif, 'Segoe UI', Arial" font-size="16" font-weight="700" fill="#e9f0f8">3  REMOTION OUTPUT</text>
+  <text x="824" y="102" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#8c99a8">out/*.mp4  ·  any duration</text>
+  <text x="824" y="122" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#8c99a8">retime · recut · re-version</text>
+
+  <line x1="406" y1="94" x2="418" y2="94" stroke="url(#fade1)" stroke-width="3" stroke-linecap="round" />
+  <path d="M 414 87 L 426 94 L 414 101 Z" fill="#57a9ff" fill-opacity="0.9" />
+  <line x1="776" y1="94" x2="788" y2="94" stroke="url(#fade2)" stroke-width="3" stroke-linecap="round" />
+  <path d="M 784 87 L 796 94 L 784 101 Z" fill="#8b6cff" fill-opacity="0.9" />
+
+  <text x="60" y="196" font-family="ui-monospace, Consolas, monospace" font-size="11" letter-spacing="3" fill="#7fb3e6">TIMELINE · 30 SEC / 900 FR</text>
+
+  <rect x="60" y="208" width="300" height="40" rx="8" fill="#57a9ff" fill-opacity="0.14" stroke="#57a9ff" stroke-opacity="0.35" />
+  <text x="76" y="233" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#7fb3e6">manim/frame_*</text>
+
+  <rect x="372" y="208" width="220" height="40" rx="8" fill="#8b6cff" fill-opacity="0.14" stroke="#8b6cff" stroke-opacity="0.35" />
+  <text x="388" y="233" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#b7a5ff">blender/frame_*</text>
+
+  <rect x="604" y="208" width="270" height="40" rx="8" fill="#3ddc97" fill-opacity="0.12" stroke="#3ddc97" stroke-opacity="0.32" />
+  <text x="620" y="233" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#8ce8c0">lottie.json</text>
+
+  <rect x="886" y="208" width="254" height="40" rx="8" fill="#57a9ff" fill-opacity="0.14" stroke="#57a9ff" stroke-opacity="0.35" />
+  <text x="902" y="233" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#7fb3e6">promo · 900 frames</text>
+
+  <text x="60" y="278" font-family="ui-sans-serif, 'Segoe UI', Arial" font-size="12" fill="#8c99a8">Frames beat screen recordings: retime, recut and patch shots without reopening the desktop app.</text>
+</svg>
