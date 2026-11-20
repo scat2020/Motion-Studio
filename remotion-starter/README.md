@@ -27,6 +27,26 @@ npx create-video@latest --yes --blank --no-tailwind studio-clip
 | `src/Root.tsx` | 注册 `<Composition>`：id、帧数、fps、分辨率 |
 | `src/StudioTitle.tsx` | 具体画面。用 `useCurrentFrame()` 拿帧号，纯函数式渲染 |
 
+`src/Promo.tsx` 是那支 30 秒宣传片（900 帧，六段分镜）。
+
+## 素材从哪儿来
+
+`Promo` 里的截图引用 `public/promo/promo-*.jpg`（约 2.9 MB），为了不把仓库塞满，
+位图不随代码分发。想重渲这道片子，得先生成素材：
+
+```bash
+# 1) 在仓库根目录把工作室打成单文件
+npm run build                     # → dist/index.html
+
+# 2) 用无头 Chrome 从这条页面截出素材
+node scripts/capture-promo-card.mjs   # → remotion-starter/public/promo/*.jpg
+
+# 3) 再进 Remotion 渲染
+cd remotion-starter && npx remotion render Promo out/promo.mp4
+```
+
+只想看片子结构、不打算重渲的话，只跑 `StudioTitle` 就行：它不依赖任何外部图片。
+
 ## 接入外部素材
 
 ```tsx
